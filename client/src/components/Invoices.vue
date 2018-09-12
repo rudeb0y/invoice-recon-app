@@ -7,11 +7,11 @@
     class="elevation-1"
   >
     <template slot="items" slot-scope="props">
-      <td class="text-xs-right">{{ props.item.EventId }}</td>
-      <td>{{ props.item.ClientOrderRef }}</td>
-      <td>{{ props.item.EventSource }}</td>
-      <td>{{ props.item.FailureType }}</td>
-      <td>{{ props.item.FailureText }}</td>
+      <td class="text-xs-right">{{ props.item.id }}</td>
+      <td>{{ props.item.MeterAssetProviderCode }}</td>
+      <td>{{ props.item.SupplierInvoiceReference }}</td>
+      <td>{{ props.item.InvoiceDate }}</td>
+      <td>{{ props.item.IsDisputed }}</td>
       <!-- <td><v-btn >Ignore</v-btn></td> -->
     </template>
 
