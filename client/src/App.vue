@@ -73,20 +73,20 @@
 
 export default {
   name: 'App',
-  data () {
+  data() {
     return {
       clipped: false,
       drawer: true,
       fixed: false,
       items: [{
         icon: 'bubble_chart',
-        title: 'Inspire'
+        title: 'Inspire',
       }],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
-    }
-  }
-}
+      title: 'MIRS 2.0 built on Vuetify',
+    };
+  },
+};
 </script>
